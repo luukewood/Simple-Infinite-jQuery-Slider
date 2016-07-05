@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content:"";
+	display: table ;
+	clear:both;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	float: left;
+	width: 1000px;
+	height: 300px;
+	display: inline-block;
+}
+
+.sliderWrapper {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.slides {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;	
+	height: 300px;
+}
+
+.red {
+	background: red;
+}
+
+.yellow {
+	background: yellow;
+}
+
+.green {
+	background: green;
+}
+
+.grey {
+	background: grey;
+}
+
+.blue {
+	background: blue;
+}
