@@ -51,14 +51,8 @@ $(function(){
 	};
 
 	buttons.on('click', function(e){
-			
 		clearInterval(interval);
-		var target = e.currentTarget;
-		if ( target.classList.contains("next") ) {
-			nextSlide();
-		} else {
-			prevSlide();
-		};
+		e.currentTarget.classList.contains('next') ? nextSlide() : prevSlide();
 	});
 });
 
